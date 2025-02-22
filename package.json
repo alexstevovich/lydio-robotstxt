@@ -1,6 +1,6 @@
 {
   "name": "@lydio/robotstxt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A structured and fluent API for generating robots.txt files in JavaScript. Supports multiple user-agents, custom rules, crawl delays, and multiple sitemaps with an expressive syntax.",
   "main": "./src/index.mjs",
   "type": "module",

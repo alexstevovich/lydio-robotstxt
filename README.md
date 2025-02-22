@@ -109,10 +109,4 @@ console.log(robots.toRobotsTxt());
 MIT
 
 ## Branding & Authenticity
-**"Lydio" is a project by Alex Stevovich.** The name, branding, and identity of Lydio are protected assets. While the MIT license allows forking and modifications of the source code, **unauthorized use of the "Lydio" name, branding, or misleading representations of this project are strictly prohibited.**  
-
-For the **official** version of Lydio: RobotsTxt, always refer to:  
-🔗 **[GitHub Repository](https://github.com/alexstevovich/lydio-robotstxt)**  
-🔗 **[NPM Package](https://www.npmjs.com/package/@lydio/robotstxt)**  
-
-If you have questions about contributions, please open an issue in the repository.
+**Lydio is a project by Alex Stevovich.** The Lydio name, branding, and identity belong to its creator.

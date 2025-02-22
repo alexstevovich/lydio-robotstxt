@@ -3,7 +3,7 @@ import fs from 'fs';
 export class RobotsTxt {
     constructor() {
         this.userAgents = new Map();
-        this.sitemaps = new Set(); // ✅ Supports multiple sitemaps
+        this.sitemaps = new Set(); 
     }
 
     sitemap(url) {
@@ -21,7 +21,7 @@ export class RobotsTxt {
     toRobotsTxt(options = { force: false }) {
         if (this.userAgents.size === 0 && !options.force) {
             throw new Error(
-                `❌ No User-agent defined in robots.txt. Add one with:\n\n`
+                ` No User-agent defined in robots.txt. Add one with:\n\n`
                 + `    robots.agent('*').allow('/');\n`
                 + `\nOr use { force: true } to suppress this error.`
             );
@@ -35,10 +35,9 @@ export class RobotsTxt {
         return output.trim();
     }
 
-    writeRobotsTxt(filePath, options = { force: false }) {
+    async writeRobotsTxt(filePath, options = { force: false }) {
         const content = this.toRobotsTxt(options);
-        fs.writeFileSync(filePath, content, 'utf8');
-        console.log(`✅ robots.txt successfully written to ${filePath}`);
+        await fs.promises.writeFile(filePath, content, 'utf8');
     }
 }
 
