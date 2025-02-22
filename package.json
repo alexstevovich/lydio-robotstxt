@@ -1,0 +1,34 @@
+{
+  "name": "@lydio/robotstxt",
+  "version": "1.0.0",
+  "description": "A structured and fluent API for generating robots.txt files in JavaScript. Supports multiple user-agents, custom rules, crawl delays, and multiple sitemaps with an expressive syntax.",
+  "main": "./src/index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "node test/lydio-robotstxt.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexstevovich/lydio-robotstxt.git"
+  },
+  "author": "Alex Stevovich",
+  "license": "MIT",
+  "keywords": [
+    "robots.txt",
+    "robots",
+    "sitemap",
+    "seo",
+    "search-engines",
+    "crawler",
+    "crawl-rules",
+    "fluent-api",
+    "javascript",
+    "web",
+    "lydio",
+    "automation",
+    "web-crawling",
+    "web-scraping",
+    "site-indexing",
+    "robots-txt-generator"
+  ]
+}
